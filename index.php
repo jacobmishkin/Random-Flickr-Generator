@@ -9,15 +9,15 @@
 	<link href="dist/css/style.css" rel="stylesheet">
 </head>
 <body>
-
-	<header>
+<header>
 	<h1>Mother Fucking Dachshunds</h1>
 </header>
 <div class="main">
 		<div class="wrap">
 				<div class="hero">
-						<div class="flickr-img"></div>
-						<img id="images" src="" alt="Mother Fucking Dachshunds">
+						<div class="flickr-img">
+							<img id="images" src="" alt="Mother Fucking Dachshunds">
+						</div>
 					<div class="btn-wrap">
 						<button class="btn">click here</button>
 					</div>	
