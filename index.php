@@ -16,7 +16,7 @@
 		<div class="wrap">
 				<div class="hero">
 						<div class="flickr-img">
-							<img id="images" src="" alt="Mother Fucking Dachshunds">
+							<img id="images" src="starter.jpg" alt="Mother Fucking Dachshunds">
 						</div>
 					<div class="btn-wrap">
 						<button class="btn">click here</button>
@@ -24,6 +24,7 @@
 				</div>
 		</div>
 </div>
+
 <script
   src="https://code.jquery.com/jquery-3.2.0.min.js"
   integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
