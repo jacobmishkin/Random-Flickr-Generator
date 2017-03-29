@@ -1,0 +1,48 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# ignore the dist folder
+dist/
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# Exceptions to ignoring all files starting with . or ~
+!.gitignore
+
+# ignore node dependency directories (used by gulp)
+node_modules/
+bower_components/
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
