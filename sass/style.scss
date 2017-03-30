@@ -1,3 +1,23 @@
 /*--------------------------------------------------------------/*
 # Main Styles
 --------------------------------------------------------------*/
+body {
+	background: linear-gradient(to right, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%)
+}
+
+.hero {
+	text-align: center;
+
+	img {
+		max-width: 100%;
+		width: 30%;
+	}
+
+	.btn {
+		cursor: pointer;
+		margin-top: 1em;
+		padding: 1em;
+		border: solid 1px black;
+		display: inline-block;
+	}
+}
