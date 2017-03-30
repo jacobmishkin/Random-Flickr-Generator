@@ -19,7 +19,7 @@
 							<img id="images" src="starter.jpg" alt="Mother Fucking Dachshunds">
 						</div>
 					<div class="btn-wrap">
-						<button class="btn">click here</button>
+						<div class="btn">click for a new Doxin</div>
 					</div>	
 				</div>
 		</div>
