@@ -2,7 +2,14 @@
 # Main Styles
 --------------------------------------------------------------*/
 body {
-	background: linear-gradient(to right, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%)
+	background: linear-gradient(to right, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%);
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	margin: 4em;
+
 }
 
 .hero {
@@ -10,14 +17,29 @@ body {
 
 	img {
 		max-width: 100%;
-		width: 30%;
+		width: 80%;
+		padding: 1em;
+	}
+	.btn-wrap {
+
+			.btn {
+			cursor: pointer;
+			margin-top: 1em;
+			padding: 1em;
+			border: solid 1px black;
+			display: inline-block;
+		}
+	}
+	
+	@media (min-width: 768px) {
+				img {
+					width: 70%;
+				}
 	}
 
-	.btn {
-		cursor: pointer;
-		margin-top: 1em;
-		padding: 1em;
-		border: solid 1px black;
-		display: inline-block;
+		@media (min-width: 1200px) {
+				img {
+					width: 40%;
+				}
 	}
 }
