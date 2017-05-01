@@ -10,10 +10,16 @@ header {
 	text-align: center;
 	margin: 4em;
 
+		h1 {
+		text-shadow: 4px 4px 2px rgba(103, 138, 80, 0.41);
+	}
+
 }
 
 .hero {
 	text-align: center;
+
+
 
 	img {
 		max-width: 100%;
@@ -26,11 +32,20 @@ header {
 			cursor: pointer;
 			margin-top: 1em;
 			padding: 1em;
-			border: solid 1px black;
 			display: inline-block;
+			outline: none;
+			color: aliceblue;
+			text-transform: uppercase;
+			border: solid 5px #41403E;
+			transition:all .5s ease;
+			box-shadow: 9px 20px 3px -10px rgba(0,0,0,0.2);
+			border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+			&:hover {
+				box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+			}
 		}
 	}
-	
 	@media (min-width: 768px) {
 				img {
 					width: 70%;
@@ -39,7 +54,7 @@ header {
 
 		@media (min-width: 1200px) {
 				img {
-					width: 40%;
+					width: 33%;
 				}
 	}
 }
