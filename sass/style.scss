@@ -19,13 +19,12 @@ header {
 .hero {
 	text-align: center;
 
-
-
 	img {
 		max-width: 100%;
 		width: 80%;
 		padding: 1em;
 	}
+	
 	.btn-wrap {
 
 			.btn {
@@ -38,7 +37,7 @@ header {
 			text-transform: uppercase;
 			border: solid 5px #41403E;
 			transition:all .5s ease;
-			box-shadow: 9px 20px 3px -10px rgba(0,0,0,0.2);
+			box-shadow: 6px 18px 3px -14px rgba(0,0,0,0.2);
 			border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
 			&:hover {
@@ -53,8 +52,9 @@ header {
 	}
 
 		@media (min-width: 1200px) {
+				
 				img {
-					width: 33%;
+					width: 25%;
 				}
 	}
 }

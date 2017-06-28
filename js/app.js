@@ -3,7 +3,7 @@ $(document).ready(function () {
   $('.btn').click(function () {
       var flicker = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
       var flickrOpts = {
-        tags: 'dachshund',
+        tags: 'doxin',
         format: "json"
       };
 
